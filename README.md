@@ -8,7 +8,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 ## init project
-
+- init
 ```
 npm create vite@latest my-twa -- --template react-ts
 
@@ -16,7 +16,14 @@ npm install
 
 npm run dev
 ```
-
+- install
+```
+npm install @ton/ton @ton/core @ton/crypto
+npm install @orbs-network/ton-access
+npm install vite-plugin-node-polyfills
+npm install @tonconnect/ui-react
+npm install @twa-dev/sdk
+```
 
 
 ## Expanding the ESLint configuration
